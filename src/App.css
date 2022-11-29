@@ -8,6 +8,7 @@
 .App {
   display: flex;
   justify-content: center;
+  color: #fff;
 }
 
 input {
@@ -15,7 +16,7 @@ input {
   height: 50px;
   width: 70px;
 
-  font-size: 25px;
+  font-size: 1.5rem;
 }
 
 .centsDiv {
@@ -23,22 +24,22 @@ input {
 }
 
 .cents p span {
-  font-size: 18px;
+  font-size: 1.2rem;
   font-weight: bold;
 }
 
 .cedula p span {
-  font-size: 18px;
+  font-size: 1.2rem;
   font-weight: bold;
 }
 
 .pacotes p span {
-  font-size: 18px;
+  font-size: 1.2rem;
   font-weight: bold;
 }
 
 .totais p span {
-  font-size: 39px;
+  font-size: 2.5rem;
   font-weight: bold;
 }
 
