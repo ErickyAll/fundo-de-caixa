@@ -225,7 +225,7 @@ function App() {
       </div>
 
       <div className='cedula'>
-      <p><span> 50 reais </span> - Quantidade: <input type="number" value={quantity50R} onChange={(e)=> setQuantity50R(e.target.value)}/> <button onClick={handleSaveValues2R}>Add</button></p> 
+      <p><span> 50 reais </span> - Quantidade: <input type="number" value={quantity50R} onChange={(e)=> setQuantity50R(e.target.value)}/> <button onClick={handleSaveValues50R}>Add</button></p> 
     
       <div>
       <p>Valor em cédulas de 50 reais: <span> R${total50R.toFixed(2)} reais</span> </p>
